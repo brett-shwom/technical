@@ -1,0 +1,23 @@
+{
+  "name": "technical",
+  "version": "1.0.0",
+  "description": "Is a tweet technical enough for @kijs",
+  "main": "tw.js",
+  "dependencies": {
+    "twitter-js-client": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brett-shwom/technical.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brett-shwom/technical/issues"
+  },
+  "homepage": "https://github.com/brett-shwom/technical"
+}
