@@ -4,7 +4,7 @@
   "description": "Is a tweet technical enough for @kijs",
   "main": "tw.js",
   "dependencies": {
-    "twitter-js-client": "^0.0.1"
+    "twitter-js-client": "git://github.com/BoyCook/TwitterJSClient"
   },
   "devDependencies": {},
   "scripts": {
