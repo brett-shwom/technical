@@ -1,13 +1,5 @@
 var Twitter = require('twitter-js-client').Twitter;
-
-//Get this data from your twitter apps dashboard
-var config = {
-    "consumerKey": "fd8DxxGcXhwB08ca5KIzBpezV",
-    "consumerSecret": "h7dRPR0wIsMx5X4soew2wJKazPtTFkxUrTvUj8b5PEWMJ58KUK",
-    "accessToken": "287242565-7sFb5T14PApzqC4nh8165mAjMny1hamB14ZctBxx",
-    "accessTokenSecret": "LZeJDzIU1RBzEH2g0FeHqz9Zl7ddlZ4drRQdtroWTBrqO",
-    // "callBackUrl": "XXX"
-}
+var config = require('./config');
 
 var twitter = new Twitter(config);
 
